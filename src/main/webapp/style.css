@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.container{
+border:1px solid white;
+width:350px;
+}
+table{
+height:450px;
+}
+/* Apply styles to the font size of table cell content */
+
+
+body{
+background-image:url("img.jpg");
+background-size:cover;
+}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+    href="style.css">
+
+<!-- jQuery library -->
+<script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body class="container-fluid" text="white">
+    
+		
+		<font face="Times new roman"><b><u><center><h1>UPLOAD FOOD DETAILS</h1></center></u></b></font>
+		
+			 
+        <form class="form" action="fooddetails" method="post">
+			<font size="5" face="Times new roman">
+			<table border="1" color="white" align="center" cellspacing="5px">
+			</font>
+			<td>Restuarant Name</td>
+                    <td><input type="text" name="restname" ></td>
+                </tr>
+                <tr>
+                    <td>Restuarant location</td>
+                    <td><input type="textarea" name="restlocation"></td>
+                </tr>
+                <tr>
+                    <td>Select Food Category</td>
+                    <td><input type="radio" name="category" value="veg">Veg
+                        <input type="radio" name="category" value="nonveg">Non veg
+                        <input type="radio" name="category" value="Both">Both</td>
+                </tr>
+        <tr>
+                    <td>Contact number</td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+                    <tr>
+                    <td>Date for food collection</td>
+                    <td><input type="date" name="date"></td>
+                </tr>
+<tr>
+                    <td>Number of plates available</td>
+                    <td><input type="number" name="plates"></td>
+                </tr>
+                <tr>
+                  <tr>
+                    <td>Upload image</td>
+                    <td><input type="file" id="img" name="img" accept="image/*"></td>
+                </tr>
+ <tr>  
+	 
+                    <td><button type="submit" class="btn btn-outline-success">Submit</button></td>
+                  <td ><button type="reset" class="btn btn-outline-danger">Reset</button></td>
+                </tr>
+                
+            </table>
+        
+    </form>
+    </div>
+</body>
+</html>
+
